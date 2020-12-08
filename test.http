@@ -1,0 +1,32 @@
+POST http://localhost:8888/api/courses HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Build A Quiz App",
+  "link": "https://www.youtube.com/redirect?event=video_description&v=VxlbcoJ3nnc&q=https%3A%2F%2Fwww.udemy.com%2Fbuild-a-quiz-app-with-html-css-and-javascript%2F&redir_token=QUFFLUhqa1VUajcwbDhUR3FJOU9HQmpNVGJrOWNqV050UXxBQ3Jtc0ttWVdxRFItUmlCZ2dsYWVBd2otUEpZYW5IRWJOaWZoMU9BYTFVZ2N3a3BpT2VGUXllQVIwV0p2NnlfMDQ3QVVPMnBGRU1OMktEcXBsdldRNFZNLU9tS2h4bGJjUUsxS3VMQTc2THpEcDRieV96enotbw%3D%3D",
+  "tags": [
+    "React"
+  ]
+}
+###
+
+PUT http://localhost:8888/api/courses HTTP/1.1
+content-type: application/json
+
+{
+  "id": "reccF2jo6y675wFLi",
+  "name": "Build An Amazing Quiz App",
+  "link": "https://www.youtube.com/redirect?event=video_description&v=VxlbcoJ3nnc&q=https%3A%2F%2Fwww.udemy.com%2Fbuild-a-quiz-app-with-html-css-and-javascript%2F&redir_token=QUFFLUhqa1VUajcwbDhUR3FJOU9HQmpNVGJrOWNqV050UXxBQ3Jtc0ttWVdxRFItUmlCZ2dsYWVBd2otUEpZYW5IRWJOaWZoMU9BYTFVZ2N3a3BpT2VGUXllQVIwV0p2NnlfMDQ3QVVPMnBGRU1OMktEcXBsdldRNFZNLU9tS2h4bGJjUUsxS3VMQTc2THpEcDRieV96enotbw%3D%3D",
+  "tags": [
+    "React"
+  ]
+}
+
+###
+
+DELETE http://localhost:8888/api/courses HTTP/1.1
+content-type: application/json
+
+{
+  "id": "recPupek6rjFseshY"
+}
